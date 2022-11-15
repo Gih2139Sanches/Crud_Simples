@@ -208,3 +208,30 @@ h3{
   bottom: 49%;
   opacity: 1;
 }
+
+/* Facilidades */
+.facilidades{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+.coluna-facilidades{
+  flex-basis: 31%;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+.coluna-facilidades img{
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+}
+.coluna-facilidades p{
+  padding: 0;
+}
+.coluna-facilidades h3{
+  margin-top: 16px;
+  margin-bottom: 15px;
+  text-align: left;
+}
