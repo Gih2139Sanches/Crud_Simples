@@ -1,9 +1,10 @@
+/* HomePage */
 const navLinks = document.getElementById("navLinks");
 
-function mostraMenu(){
+function mostraMenu() {
   navLinks.style.right = "0";
 }
-function escondeMenu(){
+function escondeMenu() {
   navLinks.style.right = "-200px";
 }
 
@@ -13,15 +14,15 @@ const signinBtn = document.getElementById("signinBtn");
 const campoNome = document.getElementById("campoNome");
 const titulo = document.getElementById("titulo");
 
-signinBtn.onclick = function(){
+signinBtn.onclick = function () {
   campoNome.style.maxHeight = "0";
-  titulo.innerHTML = "Sign In";
+  titulo.innerHTML = "Login";
   signupBtn.classList.add("disabilitado");
   signinBtn.classList.remove("disabilitado");
-}
-signupBtn.onclick = function(){
+};
+signupBtn.onclick = function () {
   campoNome.style.maxHeight = "60px";
-  titulo.innerHTML = "Sign Up";
+  titulo.innerHTML = "Cadastra-se";
   signupBtn.classList.remove("disabilitado");
   signinBtn.classList.add("disabilitado");
-}
+};

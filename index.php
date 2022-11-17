@@ -21,11 +21,12 @@
       <div class="nav-links" id="navLinks">
         <i class="fa fa-times" onclick="escondeMenu()"></i>
         <ul>
-          <li><a href="#">HOME</a></li>
-          <li><a href="Sobre.html">SOBRE</a></li>
-          <li><a href="Cursos.html">CURSOS</a></li>
-          <li><a href="#">BLOG</a></li>
-          <li><a href="#">CONTATO</a></li>
+          <li><a href="index.php">HOME</a></li>
+          <li><a href="./pages/Sobre.php">SOBRE</a></li>
+          <li><a href="./pages/Cursos.php">CURSOS</a></li>
+          <li><a href="./pages/Blog.php">BLOG</a></li>
+          <li><a href="./pages/Contato.php">CONTATO</a></li>
+          <li class="btn"><a href="./php/Login.php">LOGIN</a></li>
         </ul>
       </div>
       <i class="fa fa-bars" onclick="mostraMenu()"></i>

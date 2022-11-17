@@ -51,31 +51,31 @@
   transition: max-heigth 0.5s;
   overflow: hidden;
 }
-input{
+input {
   width: 100%;
   background: transparent;
   border: 0;
   outline: 0;
   padding: 18px 15px;
 }
-.input-campo i{
+.input-campo i {
   margin-left: 15px;
   color: #999;
 }
-form p{
+form p {
   text-align: left;
   font-size: 13px;
 }
-form p a{
+form p a {
   text-decoration: none;
   color: #3c00a0;
 }
-.btn-campo{
+.btn-campo {
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
-.btn-campo button{
+.btn-campo button {
   flex-basis: 48%;
   background: #3c00a0;
   color: #fff;
@@ -86,10 +86,10 @@ form p a{
   cursor: pointer;
   transition: background 1s;
 }
-.input-grupo{
-  height: 280px;
+.input-grupo {
+  height: 300px;
 }
-.btn-campo button.disabilitado{
+.btn-campo button.disabilitado {
   background: #eaeaea;
   color: #555;
 }
