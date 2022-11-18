@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="../css/style.css">
 
   <link rel="stylesheet" href="https://cdn.es.gov.br/fonts/font-awesome/css/font-awesome.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,15 +17,16 @@
 <body>
   <section class="sub-header">
     <nav>
-      <a href="index.html" class=""><img src="imagens/logo.png" alt=""></a>
+      <a href="index.html" class=""><img src="../imagens/logo.png" alt=""></a>
       <div class="nav-links" id="navLinks">
         <i class="fa fa-times" onclick="escondeMenu()"></i>
         <ul>
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">SOBRE</a></li>
-          <li><a href="#">CURSOS</a></li>
-          <li><a href="#">BLOG</a></li>
-          <li><a href="#">CONTATO</a></li>
+          <li><a href="../index.php">HOME</a></li>
+          <li><a href="Sobre.php">SOBRE</a></li>
+          <li><a href="Cursos.php">CURSOS</a></li>
+          <li><a href="Blog.php">BLOG</a></li>
+          <li><a href="Contato.php">CONTATO</a></li>
+          <li class="btn"><a href="../php/Login.php">LOGIN</a></li>
         </ul>
       </div>
       <i class="fa fa-bars" onclick="mostraMenu()"></i>
@@ -58,17 +59,17 @@
     <p>Lorem ipsum dolor sit amet . Os operadores gráficos e tipográficos sabem disso bem.</p>
     <div class="linha">
       <div class="coluna-facilidades">
-        <img src="./imagens/library.png" alt="">
+        <img src="../imagens/library.png" alt="">
         <h3>LONDRES</h3>
         <p></p>
       </div>
       <div class="coluna-facilidades">
-        <img src="./imagens/basketball.png" alt="">
+        <img src="../imagens/basketball.png" alt="">
         <h3>NOVA YORK</h3>
         <p></p>
       </div>
       <div class="coluna-facilidades">
-        <img src="./imagens/cafeteria.png" alt="">
+        <img src="../imagens/cafeteria.png" alt="">
         <h3>WASHINGTON</h3>
         <p></p>
       </div>

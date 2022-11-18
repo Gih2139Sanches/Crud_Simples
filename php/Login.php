@@ -21,11 +21,11 @@
       <h1 id="titulo">Cadastra-se</h1>
       <form>
         <div class="input-grupo">
-          <div class="input-campo" id="campoNome">
+          <div class="input-campo">
             <i class="fa-solid fa-user"></i>
             <input type="text" placeholder="Nome">
           </div>
-          <div class="input-campo">
+          <div class="input-campo" id="campoEmail">
             <i class="fa-solid fa-envelope"></i>
             <input type="email" placeholder="Email">
           </div>
@@ -35,7 +35,7 @@
           </div>
           <p>Perdeu sua senha? <a href="#">Clique Aqui</a></p>
           <div class="btn-campo">
-            <button type="submit"><a href="Dashboard.php">Entrar</a></button>
+            <button type="submit"><a href="./cadastros/CadastroAluno.php">Entrar</a></button>
           </div>
         </div>
         <div class="btn-campo">
